@@ -1,4 +1,4 @@
-#AI Prompt Improver Frontend
+# AI Prompt Improver Frontend
 
 A React + TypeScript + Tailwind + Framer Motion frontend for transforming vague website ideas into structured, actionable website briefs. Works with the Node + Express backend that connects to the Gemini API.
 
@@ -18,7 +18,7 @@ Example prompt buttons for quick testing
 
 Responsive design
 
-#Tech Stack
+# Tech Stack
 
 React with TypeScript
 
@@ -28,7 +28,7 @@ Framer Motion for animations
 
 Lucide React icons
 
-#Getting Started Prerequisites
+# Getting Started Prerequisites
 
 Node.js >= 18
 
@@ -40,7 +40,7 @@ Installation
 
 Clone the repo:
 
-git clone https://github.com/your-username/ai-prompt-frontend.git
+git clone https://github.com/Moha-Why/Prompt_Engineer_Gemini_FrontEnd.git
 cd ai-prompt-frontend
 
 
