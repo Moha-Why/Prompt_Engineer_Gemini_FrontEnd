@@ -25,7 +25,7 @@ const improveBrief = async (roughIdea: string): Promise<BriefResponse> => {
     })
   }).then(res => res.json());
   
-
+  console.log(data);
   return data ;
 };
 
@@ -71,7 +71,7 @@ const HeroSection: React.FC = () => {
   
   useEffect(() => {
     window.scrollTo({ top: ref ? ref.current?.offsetTop : 0, behavior: 'smooth' });
-  })
+  }, [state])
   
   return (
     <div className="min-h-screen bg-linear-to-br from-slate-50 via-blue-50 to-indigo-50">
